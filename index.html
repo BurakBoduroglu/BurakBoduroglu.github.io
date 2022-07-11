@@ -10,12 +10,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="icon" href="/img/logo.png">
     <title>Ana Sayfa | Burak Boduroğlu</title>
 </head>
 
 <body class="body">
+
+    <!--Back to Top Button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-arrow-up"></button>
+    <!--Back to Top Button-->
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -46,8 +54,7 @@
     </nav>
     </div>
     <!-- Navbar end -->
-    <br>
-    <section id="home">
+    <section id="home" class="mt-2">
         <div class="container mr-auto">
             <div id="slide" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
@@ -67,7 +74,8 @@
                         <img src="/img/slide-2.jpg" alt="Chicago">
                         <div class="carousel-caption">
                             <h3>Web Geliştirme</h3>
-                            <p class="slide-font">Web geliştirme ile aktif olarak ilgileniyorum.<p>
+                            <p class="slide-font">Web geliştirme ile aktif olarak ilgileniyorum.
+                            <p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -87,27 +95,48 @@
             </div>
             <div class="card mt-2 mb-5">
                 <div class="card-header">
-                  Bilgilendirme
+                    Bilgilendirme
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Hakkımda</h5>
-                  <p class="card-text">Hakkımda detaylı bilgi almak için aşağıdaki butona ya da menüden hakkımda kısmına basınız.</p>
-                  <a href="about.html" class="btn btn-info">Hakkımda</a>
+                    <h5 class="card-title">Hakkımda</h5>
+                    <p class="card-text">Hakkımda detaylı bilgi almak için aşağıdaki butona ya da menüden hakkımda
+                        kısmına basınız.</p>
+                    <a href="about.html" class="btn btn-info">Hakkımda</a>
                 </div>
-              </div>
+            </div>
         </div>
     </section>
 
     <!--Footer-->
-    <br><br>
-    <footer class="text-center text-white fixed-bottom" style="background-color: rgb(33, 37, 41);">
-        <div class="container p-3"></div>
-        <div class="p-3" style="background-color: rgb(29, 32, 37);">
-          <a class="text-white" href="index.html">© 2022 Copyright Burak Boduroğlu - Code Challenge</a>
-        </div>
-      </footer>
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/challenge.code/?hl=tr">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://medium.com/@burboduroglu">
+                    <i class="fab fa-medium"></i>
+                </a>
+                <a href="https://github.com/BurakBoduroglu">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.hackerrank.com/burak_boduroglu">
+                    <i class="fab fa-hackerrank"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/BurakBoduroglu">
+                    <i class="fab fa-free-code-camp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/burakboduroglu/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <br>
+                <p class="detail"> Detaylı bilgi için hesaplarımı ziyaret edin.</p>
+            </div>
+            <p class="copyright">Burak Boduroğlu | Code Challenge © 2022</p>
+        </footer>
+    </div>
     <!--Footer end-->
-    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -120,6 +149,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/top.js"></script>
 </body>
 
 </html>

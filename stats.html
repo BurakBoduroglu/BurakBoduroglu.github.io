@@ -19,6 +19,11 @@
 </head>
 
 <body class="body">
+
+    <!--Back to Top Button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-arrow-up"></button>
+    <!--Back to Top Button-->
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -49,9 +54,8 @@
     </nav>
     </div>
     <!-- Navbar end -->
-    <br>
     <section id="stats">
-        <div class="container">
+        <div class="container mb-5">
             <div class="main-content">
                 <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
                     <div class="container-fluid">
@@ -109,7 +113,8 @@
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col">
-                                                    <h5 class="card-title text-uppercase text-muted mb-0">Medium Blog</h5>
+                                                    <h5 class="card-title text-uppercase text-muted mb-0">Medium Blog
+                                                    </h5>
                                                     <span class="h2 font-weight-bold mb-0">1</span>
                                                 </div>
                                                 <div class="col-auto">
@@ -161,14 +166,33 @@
     </section>
 
     <!--Footer-->
-    <br>
-    <footer class="text-center text-white fixed-bottom" style="background-color: rgb(33, 37, 41);">
-        <div class="container p-3"></div>
-        <div class="p-3" style="background-color: rgb(29, 32, 37);">
-            <a class="text-white" href="index.html">© 2022 Copyright Burak Boduroğlu - Code
-                Challenge</a>
-        </div>
-    </footer>
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/challenge.code/?hl=tr">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://medium.com/@burboduroglu">
+                    <i class="fab fa-medium"></i>
+                </a>
+                <a href="https://github.com/BurakBoduroglu">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.hackerrank.com/burak_boduroglu">
+                    <i class="fab fa-hackerrank"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/BurakBoduroglu">
+                    <i class="fab fa-free-code-camp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/burakboduroglu/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <br>
+                <p class="detail"> Detaylı bilgi için hesaplarımı ziyaret edin.</p>
+            </div>
+            <p class="copyright">Burak Boduroğlu | Code Challenge © 2022</p>
+        </footer>
+    </div>
     <!--Footer end-->
 
 
@@ -183,6 +207,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/top.js"></script>
 </body>
 
 </html>
