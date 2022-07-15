@@ -315,3 +315,9 @@ main {
   text-decoration: none;
   color: #555;
 }
+
+.navbar-btn:hover{
+  background-color: rgb(138, 138, 9);
+  border-radius: 20%;
+}
+
